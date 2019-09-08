@@ -13,9 +13,11 @@ function incrementCounter() {
     counter.innerHTML = count;
     if (counter.innerHTML > 0) {
         counter.style.color = '#4caf50';
-    } else if (counter.innerHTML === 0) {
+    } else if (counter.innerHTML == 0) {
         counter.style.color = 'white';
     } else { counter.style.color = 'red' }
+    counter.animate([{ opacity: '0.2' }, { opacity: '1.0' }], { duration: 500, fill: 'forwards' });
+
 }
 
 
@@ -25,7 +27,8 @@ function decrementCounter() {
     counter.innerHTML = count;
     if (counter.innerHTML > 0) {
         counter.style.color = '#4caf50';
-    } else if (counter.innerHTML === 0) {
+    } else if (counter.innerHTML == 0) {
         counter.style.color = 'white';
     } else { counter.style.color = 'red' }
+    counter.animate([{ opacity: '0.2' }, { opacity: '1.0' }], { duration: 500, fill: 'forwards' });
 }
