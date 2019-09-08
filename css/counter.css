@@ -4,4 +4,40 @@ body {
     justify-content: center;
     align-items: center;
     background-color: dodgerblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.counter-box {
+    flex: 0 0 70%;
+    text-align: center;
+    border: 3px solid grey;
+    padding: 1rem;
+    font-weight: bold;
+    box-shadow: 3px 3px 10px 10px black;
+}
+
+.counter {
+    font-size: 6rem;
+}
+
+.btn {
+    background-color: white;
+    border-radius: 8px;
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+    border: 3px solid #f15025;
+    box-shadow: 0px 5px #001221;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+.btn:active {
+    box-shadow: none;
 }
