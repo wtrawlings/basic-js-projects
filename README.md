@@ -22,3 +22,6 @@ This is another application of the random number generator used to select an obj
 COUNTER: 
 Make a couple of buttons that will raise or lower a value of a published variable. In this case a number. We put in some small changes as well like making the counted number change color per the value and some animated.
 I need to start the counter at 1:13:18 at the time hack.
+
+BACKGROUND IMAGE CHANGER:
+I imagine this will be set on the same control basis as the counter. Same buttons, same counter, just using the counter to move through an array that controls which item in a list will be shown.
