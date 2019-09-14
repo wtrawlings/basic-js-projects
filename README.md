@@ -24,4 +24,4 @@ Make a couple of buttons that will raise or lower a value of a published variabl
 I need to start the counter at 1:13:18 at the time hack.
 
 BACKGROUND IMAGE CHANGER:
-I imagine this will be set on the same control basis as the counter. Same buttons, same counter, just using the counter to move through an array that controls which item in a list will be shown.
+I imagine this will be set on the same control basis as the counter. Same buttons, same counter, just using the counter as the variable in a file list where the files all end with a number. That way, when the style is replaced, you can call the background image with string interpolation.
